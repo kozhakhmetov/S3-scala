@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc3aa55c-19b0-42e4-9255-4e6f6f164b30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_2_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_2_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_amazonaws_aws_java_sdk_core_1_11_531_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_amazonaws_aws_java_sdk_kms_1_11_531_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_amazonaws_aws_java_sdk_s3_1_11_531_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_amazonaws_jmespath_java_1_11_531_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_6_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_6_7_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_6_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_12_2_5_21_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_12_10_1_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_12_10_1_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_spray_json_2_12_10_1_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_12_10_1_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_12_2_5_21_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_12_2_5_21_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_12_2_5_21_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_12_2_5_21_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_3_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_slick_slick_2_12_3_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_slick_slick_codegen_2_12_3_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_slick_slick_hikaricp_2_12_3_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_12_0_3_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_zaxxer_HikariCP_2_5_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_spray_spray_json_2_12_1_3_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_8_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__software_amazon_ion_ion_java_1_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/aws-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Boot.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/JsonSupport.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/actors/S3.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/src/main/resources/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/resources/logback.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/HotelBooking/Boot.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/HotelBooking/JSONSupport.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/HotelBooking/actors/Guest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/HotelBooking/actors/Hotel.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/HotelBooking/actors/Room.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/HotelBooking/models/ErrorInfo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/HotelBooking/models/GuestModel.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/HotelBooking/models/RoomModel.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/akka/ActorHierarchyExperiments.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/akka/FailureHandling.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/akka/IotApp.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/akka/IotSupervisor.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/akka/main.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/akka/part3/DeviceSpec.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/akka/part4/Device.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/akka/part4/DeviceGroup.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/akka/part4/DeviceGroupQuery.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/akka/part4/DeviceManager.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/example/Main.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/lab3/Bonus.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/lab3/Main.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/lab3/Task1.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/lab3/Task2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/lab4/SeocndPart.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/lab4/main.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/lab7/Billionaire.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/src/main/scala/lab7/Billionaire.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/src/main/scala/lab7/Boot.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/src/main/scala/lab7/Boot.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/Boot$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/Boot$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/Boot$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/Boot$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/Boot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/JSONSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/Routes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Guest$$anonfun$inRoom$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Guest$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Guest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Guest$GetData$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Guest$InRoom$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Guest$InRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Guest$SetFree$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Guest$SetRoom$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Guest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$$anonfun$waitingCheckInResponse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$$anonfun$waitingGuestResponse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$$anonfun$waitingResponsesGetGuests$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$$anonfun$waitingResponsesGetRooms$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$$anonfun$waitingRoomResponse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$CheckIn$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$CheckIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$CreateGuest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$CreateGuest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$CreateRoom$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$CreateRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$GetGuest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$GetGuest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$GetGuests$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$GetRoom$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$GetRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$GetRooms$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$Guests$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$Guests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$Response$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$Rooms$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$Rooms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$SetFreeRoom$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel$SetFreeRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Hotel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Room$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Room$$anonfun$waitingGuestResponse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Room$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Room$CheckInGuest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Room$CheckInGuest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Room$GetData$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Room$RoomIsFull$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Room$SetFree$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Room$deleteGuest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Room$deleteGuest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/actors/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/models/ErrorInfo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/models/ErrorInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/models/GuestModel$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/models/GuestModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/models/RoomModel$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/HotelBooking/models/RoomModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/FailureHandling$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/FailureHandling$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/FailureHandling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/StartStopActor1$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/StartStopActor1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/StartStopActor1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/StartStopActor2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/StartStopActor2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/SupervisedActor$$anonfun$receive$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/SupervisedActor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/SupervisedActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/SupervisingActor$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/SupervisingActor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/SupervisingActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/com/example/IotApp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/com/example/IotApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/com/example/IotSupervisor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/com/example/IotSupervisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/main$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/main$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part3/Device$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part3/Device$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part3/Device$ReadTemperature$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part3/Device$ReadTemperature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part3/Device$RecordTemperature$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part3/Device$RecordTemperature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part3/Device$RespondTemperature$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part3/Device$RespondTemperature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part3/Device$TemperatureRecorded$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part3/Device$TemperatureRecorded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part3/Device.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/Device$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/Device$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/Device$ReadTemperature$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/Device$ReadTemperature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/Device$RecordTemperature$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/Device$RecordTemperature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/Device$RespondTemperature$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/Device$RespondTemperature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/Device$TemperatureRecorded$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/Device$TemperatureRecorded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/Device.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$DeviceNotAvailable$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$DeviceTimedOut$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$ReplyDeviceList$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$ReplyDeviceList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$RequestAllTemperatures$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$RequestAllTemperatures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$RequestDeviceList$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$RequestDeviceList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$RespondAllTemperatures$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$RespondAllTemperatures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$Temperature$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$Temperature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$TemperatureNotAvailable$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup$TemperatureReading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroupQuery$$anonfun$waitingForReplies$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroupQuery$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroupQuery$CollectionTimeout$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceGroupQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceManager$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceManager$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceManager$DeviceRegistered$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceManager$RequestTrackDevice$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceManager$RequestTrackDevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/akka/part4/DeviceManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/example/Main$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/example/Main$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Bonus$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Bonus$End$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Bonus$GenericEnd$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Bonus$GenericEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Bonus$GenericList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Bonus$GenericNode$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Bonus$GenericNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Bonus$IntList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Bonus$Node$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Bonus$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Bonus$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Bonus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/BottledWater$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/BottledWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Calculation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Circle$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Draw$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Draw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Failure$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Failure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Main$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Main$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Rectangle$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Rectangular.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Spring$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Spring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Square$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Success$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Success.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Tap$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Tap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Task1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Task1$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Task2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Task2$End$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Task2$IntList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Task2$Node$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Task2$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Task2$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Well$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab3/Well.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab4/SeocndPart$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab4/SeocndPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab4/main$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab4/main$Director$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab4/main$Director.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab4/main$Film$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab4/main$Film.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab4/main$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab4/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab5/ActorHierarchyExperiments$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab5/ActorHierarchyExperiments$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab5/ActorHierarchyExperiments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab5/PrintMyActorRefActor$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab5/PrintMyActorRefActor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab5/PrintMyActorRefActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab7/Billionaire$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab7/Billionaire$$anonfun$receive$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab7/Billionaire$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab7/Billionaire$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab7/Billionaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/target/scala-2.12/classes/lab7/Billionaire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bhle-labs" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-771390060">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="conf" value="1" />
+          <entry key="sbt" value="1" />
+          <entry key="scala" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HOCON" value="1" />
+          <entry key="Scala" value="7" />
+          <entry key="sbt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="sbt" value="9" />
+          <entry key="scala" value="2651" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Scala" value="2651" />
+          <entry key="sbt" value="9" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Boot.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="937">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/actors/S3.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+              <folding>
+                <element signature="e#16#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/JsonSupport.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/models/ErrorInfo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/models/Body.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Conf" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ErrorI</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/models/ErrorInfo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/models/Body.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/JsonSupport.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Boot.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/actors/S3.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AWS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AWS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AWS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AWS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AWS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AWS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AWS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AWS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AWS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AWS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556918181807" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Boot" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Boot" />
+      <module name="AWS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="AWS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="AWS" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Boot" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="AWS" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="aws [file:/Users/mac/Documents/KBTU/Scala/AWS/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="aws-build [file:/Users/mac/Documents/KBTU/Scala/AWS/]" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="2042753972" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2567920773" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../bhle-labs/bhle-lab-1" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc3aa55c-19b0-42e4-9255-4e6f6f164b30" name="Default Changelist" comment="" />
+      <created>1556897396921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556897396921</updated>
+      <workItem from="1556897398452" duration="10344000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10344000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" weight="0.27951807" />
+      <window_info anchor="bottom" id="SBT Console" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="sbt" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Key Promoter X" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.7-sources.jar!/akka/http/scaladsl/marshalling/ToResponseMarshallable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/models/ErrorInfo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/models/Body.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/JsonSupport.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.7-sources.jar!/akka/http/scaladsl/model/StatusCode.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Boot.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="937">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/actors/S3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="e#16#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
