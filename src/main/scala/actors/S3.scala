@@ -37,15 +37,22 @@ class S3(s3Client: AmazonS3, mainPath: String, bucketName: String) extends Actor
       }
     case Upload(path) =>
       println(s"Upload request with path: $path")
-      uploadToS3(path)
-      sender() ! ErrorInfo("OK", 200)
+      if (uploadToS3(path)) {
+        sender() ! ErrorInfo("OK", 200)
+      }else {
+        sender() ! ErrorInfo("Not Found", 404)
+      }
   }
 
 
-  def uploadToS3(path: String): Unit = {
+  def uploadToS3(path: String): Boolean = {
     val file = new File(mainPath + path)
+    if (!file.exists()) {
+      return false;
+    }
     s3Client.putObject(bucketName, path, file)
     println(s"uploaded to s3 with path: $path")
+    return true;
   }
 
   def fileIsUploadedToS3(uploadPath: String): Boolean = {

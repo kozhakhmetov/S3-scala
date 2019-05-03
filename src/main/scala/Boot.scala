@@ -1,6 +1,6 @@
-import java.io.File
+import java.io.{File, FileFilter}
 
-import actors.S3
+import actors.{S3, IO}
 import com.amazonaws.auth.AWSStaticCredentialsProvider
 import com.amazonaws.auth.BasicAWSCredentials
 import com.amazonaws.regions.Regions
@@ -32,7 +32,7 @@ case class Response(msg: String, statusCode: StatusCode)
 
 object Boot extends App with JsonSupport {
   var bucketName: String = "bhle-lab"
-  var mainPath: String = "src/main/resources/s3/"
+  var mainPath: String = "src/main/resources/"
   implicit val timeout = Timeout(30.seconds)
 
   // needed to run the route
@@ -45,8 +45,8 @@ object Boot extends App with JsonSupport {
   val log = LoggerFactory.getLogger("Boot")
 
   val awsCreds = new BasicAWSCredentials(
-    "AKIAXLVB2ODHGBSRCT5R",
-    "CPvVvX8tcjuUlzhtmkg5giUigRlX8l9uvVfb6A/U")
+    "access_key",
+    "secret_key")
 
   // Frankfurt client
   val s3Client: AmazonS3 = AmazonS3ClientBuilder.standard
@@ -61,22 +61,42 @@ object Boot extends App with JsonSupport {
     s3Client.createBucket("bhle-lab")
     log.info("Bucket created")
   }
-
   val s3interaction = system.actorOf(S3.props(s3Client, mainPath, bucketName), "s3interaction")
+/*
+  // file for output
+  val outFile = new File(mainPath + "/out")
+  val outPath = "out"
 
+  // file for input
+
+  val io = system.actorOf(IO.props(s3interaction, outFile, outPath))
 
   val route = path("s3") {
     get{
       parameters('path.as[String]) { path =>
         complete {
-          (s3interaction ? S3.Download(path)).mapTo[ErrorInfo]
+          (s3interaction ? S3.Download("s3/" + path)).mapTo[ErrorInfo]
         }
       }
     }~
     post{
       entity(as[Body]) { body =>
         complete {
-          (s3interaction ? S3.Upload(body.path)).mapTo[ErrorInfo]
+          (s3interaction ? S3.Upload("s3/" + body.path)).mapTo[ErrorInfo]
+        }
+      }
+    }
+  }~pathPrefix("task2") {
+    path("out") {
+      get {
+        complete {
+          (io ? IO.OUT).mapTo[ErrorInfo]
+        }
+      }
+    }~path("in") {
+      get {
+        complete {
+          (io ? IO.IN).mapTo[ErrorInfo]
         }
       }
     }
@@ -88,6 +108,8 @@ object Boot extends App with JsonSupport {
   log.info("Listening on port 8080...")
 
 
+*/
 
+  s3Client.
 
 }
