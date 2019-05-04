@@ -1,6 +1,7 @@
 import java.io.{File, FileFilter}
+import java.util
 
-import actors.{S3, IO}
+import actors.{IO, S3}
 import com.amazonaws.auth.AWSStaticCredentialsProvider
 import com.amazonaws.auth.BasicAWSCredentials
 import com.amazonaws.regions.Regions
@@ -45,8 +46,8 @@ object Boot extends App with JsonSupport {
   val log = LoggerFactory.getLogger("Boot")
 
   val awsCreds = new BasicAWSCredentials(
-    "access_key",
-    "secret_key")
+    "",
+    "")
 
   // Frankfurt client
   val s3Client: AmazonS3 = AmazonS3ClientBuilder.standard
@@ -61,28 +62,28 @@ object Boot extends App with JsonSupport {
     s3Client.createBucket("bhle-lab")
     log.info("Bucket created")
   }
-  val s3interaction = system.actorOf(S3.props(s3Client, mainPath, bucketName), "s3interaction")
-/*
+  val s3interaction = system.actorOf(S3.props(s3Client, mainPath + "s3/", bucketName), "s3interaction")
+
+
   // file for output
   val outFile = new File(mainPath + "/out")
-  val outPath = "out"
 
   // file for input
 
-  val io = system.actorOf(IO.props(s3interaction, outFile, outPath))
+  val io = system.actorOf(IO.props(s3Client, bucketName, outFile, mainPath))
 
   val route = path("s3") {
-    get{
+    get {
       parameters('path.as[String]) { path =>
         complete {
-          (s3interaction ? S3.Download("s3/" + path)).mapTo[ErrorInfo]
+          (s3interaction ? S3.Download(path)).mapTo[ErrorInfo]
         }
       }
     }~
-    post{
+    post {
       entity(as[Body]) { body =>
         complete {
-          (s3interaction ? S3.Upload("s3/" + body.path)).mapTo[ErrorInfo]
+          (s3interaction ? S3.Upload(body.path)).mapTo[ErrorInfo]
         }
       }
     }
@@ -107,9 +108,13 @@ object Boot extends App with JsonSupport {
   val bindingFuture = Http().bindAndHandle(route, "localhost", 8080)
   log.info("Listening on port 8080...")
 
+/*  println("qwe")
 
-*/
+  val listObjectsRequest = new ListObjectsRequest().
+    withBucketName(bucketName)
 
-  s3Client.
+
+  var list: ObjectListing = s3Client.listObjects(bucketName)
+  list.getObjectSummaries().forEach(key => println(key.getKey()))*/
 
 }

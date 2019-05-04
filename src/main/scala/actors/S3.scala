@@ -28,6 +28,7 @@ class S3(s3Client: AmazonS3, mainPath: String, bucketName: String) extends Actor
 
   override def receive: Receive = {
     case Download(path) =>
+
       println(s"Download request with path: $path")
       if (s3Client.doesObjectExist(bucketName, path)) {
         downloadFromS3(path)
@@ -44,7 +45,6 @@ class S3(s3Client: AmazonS3, mainPath: String, bucketName: String) extends Actor
       }
   }
 
-
   def uploadToS3(path: String): Boolean = {
     val file = new File(mainPath + path)
     if (!file.exists()) {
@@ -57,13 +57,6 @@ class S3(s3Client: AmazonS3, mainPath: String, bucketName: String) extends Actor
 
   def fileIsUploadedToS3(uploadPath: String): Boolean = {
     return s3Client.doesObjectExist(bucketName, uploadPath)
-    try {
-      s3Client.getObjectMetadata(bucketName, uploadPath)
-      true
-    } catch {
-      case e: AmazonServiceException if e.getStatusCode == 404 =>
-        false
-    }
   }
 
   def downloadFromS3(uploadPath: String) {

@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc3aa55c-19b0-42e4-9255-4e6f6f164b30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/actors/IO.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/s3/first.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/s3/folder/first.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/s3/tos3/first.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Boot.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Boot.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/actors/IO.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/actors/IO.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/actors/S3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/actors/S3.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Boot$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Boot$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Boot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Boot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Boot$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Boot$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Boot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Response$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Response.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/actors/S3$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/actors/S3$$anonfun$receive$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/actors/S3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/actors/S3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/s3/folder/first.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/s3/tos3/first.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab1/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/build.sbt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab1/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
@@ -271,7 +278,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="conf" value="1" />
-          <entry key="java" value="1" />
+          <entry key="java" value="2" />
           <entry key="sbt" value="1" />
           <entry key="scala" value="9" />
         </counts>
@@ -279,7 +286,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HOCON" value="1" />
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="2" />
           <entry key="Scala" value="9" />
           <entry key="sbt" value="1" />
         </counts>
@@ -287,12 +294,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="sbt" value="9" />
-          <entry key="scala" value="4126" />
+          <entry key="scala" value="4888" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="4126" />
+          <entry key="Scala" value="4888" />
           <entry key="sbt" value="9" />
         </counts>
       </usages-collector>
@@ -312,8 +319,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Boot.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="112" column="11" selection-start-line="112" selection-start-column="11" selection-end-line="112" selection-end-column="11" />
+            <state relative-caret-position="182">
+              <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -324,11 +331,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/actors/IO.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-              <folding>
-                <element signature="e#16#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-12">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -336,8 +340,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/actors/S3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
-              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+            <state relative-caret-position="66">
+              <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
               <folding>
                 <element signature="e#16#35#0" expanded="true" />
               </folding>
@@ -456,6 +460,23 @@
               <item name="AWS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="s3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AWS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AWS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="s3" type="462c0819:PsiDirectoryNode" />
+              <item name="cvv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AWS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AWS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -475,7 +496,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556923699417" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556965534135" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -604,23 +625,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556897396921</updated>
-      <workItem from="1556897398452" duration="14962000" />
+      <workItem from="1556897398452" duration="20377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14962000" />
+    <option name="totallyTimeSpent" value="20377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.27951807" />
       <window_info anchor="bottom" id="SBT Console" />
@@ -633,7 +653,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -722,10 +742,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.amazonaws/aws-java-sdk-s3/srcs/aws-java-sdk-s3-1.11.531-sources.jar!/com/amazonaws/services/s3/model/ObjectListing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+          <folding>
+            <element signature="e#3839#3840#0" expanded="true" />
+            <element signature="e#3877#3878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/actors/S3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        <state relative-caret-position="66">
+          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
           <folding>
             <element signature="e#16#35#0" expanded="true" />
           </folding>
@@ -734,18 +765,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/actors/IO.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding>
-            <element signature="e#16#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-12">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Boot.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="112" column="11" selection-start-line="112" selection-start-column="11" selection-end-line="112" selection-end-column="11" />
+        <state relative-caret-position="182">
+          <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
